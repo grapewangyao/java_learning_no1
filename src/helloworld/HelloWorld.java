@@ -14,8 +14,8 @@ public class HelloWorld {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.print("Hello world!!");
-        System.out.print("Test git!!");
-        System.out.print("Test git2!!");
+        System.out.print("Hello world!!\n");
+        System.out.print("Test git!!\n");
+        System.out.print("Test git2!!\n");
     }
 }
