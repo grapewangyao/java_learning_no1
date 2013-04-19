@@ -14,11 +14,15 @@ public class HelloWorld {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.print("Hello world!!\n");
-        System.out.print("Test git!!\n");
-        System.out.print("Test git2!!\n");
+        System.out.print("\n==================\n");
         ATypeName a = new ATypeName();
         a.show();
-         System.out.print("Test git3!!\n");
+        System.out.print("\n==================\n");
+        DataOnly d = new DataOnly();
+        d.setBoolean(true);
+        d.setDouble(11.2);
+        d.setInt(2);
+        d.c();
+        System.out.print("\n==================\n");
     }
 }
