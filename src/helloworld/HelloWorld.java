@@ -28,5 +28,9 @@ public class HelloWorld {
         string.setString("hahaha");
         System.out.print("length:"+string.storge());
         System.out.print("\n==================\n");
+        Incrementable.increment();
+        Incrementable.increment();
+        Incrementable.showStaticI();
+        System.out.print("\n==================\n");
     }
 }
