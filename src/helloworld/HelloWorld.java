@@ -24,5 +24,9 @@ public class HelloWorld {
         d.setInt(2);
         d.c();
         System.out.print("\n==================\n");
+        TestStorge string = new TestStorge();
+        string.setString("hahaha");
+        System.out.print("length:"+string.storge());
+        System.out.print("\n==================\n");
     }
 }
