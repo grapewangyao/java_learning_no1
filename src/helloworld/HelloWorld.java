@@ -17,5 +17,8 @@ public class HelloWorld {
         System.out.print("Hello world!!\n");
         System.out.print("Test git!!\n");
         System.out.print("Test git2!!\n");
+        ATypeName a = new ATypeName();
+        a.show();
+         System.out.print("Test git3!!\n");
     }
 }
